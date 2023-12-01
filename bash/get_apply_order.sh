@@ -23,6 +23,16 @@ check_dependencies() {
     done
 }
 
+check_files() {
+    local files=("$@")
+    for file in "${files[@]}"; do
+        if [ ! -f "$file" ]; then
+            echo "The file $file does not exist."
+            exit 1
+        fi
+    done
+}
+
 check_dependencies yq
 check_files $yaml_file
 
