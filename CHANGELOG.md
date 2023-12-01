@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/helops-io/toolkit/compare/v1.0.0...v1.0.1) (2023-12-01)
+
+
+### Bug Fixes
+
+* **get_apply_order:** Adding check_file function and tests ([fc14b60](https://github.com/helops-io/toolkit/commit/fc14b60487e6dd69031d07fa8f786385474933ba))
+
 ## 1.0.0 (2023-12-01)
 
 
